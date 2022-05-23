@@ -1,15 +1,19 @@
 * {
   margin: 0;
-  font-family: "Noto Sans", sans-serif;
+  font-family: $font-main;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
 
 html {
   font-family: "Noto Sans", sans-serif;
+  font-size: $font-size-16;
 }
 
 body {
   font-family: "Noto Sans", sans-serif;
+  color: $primary;
 }
 
 //폰트가 잘 먹는 경우가 많아서 세번 먹여주면 대부분의 경우 잘 작동
